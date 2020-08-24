@@ -1,0 +1,43 @@
+{
+	"name": "Firefly",
+	"type": "fortress",
+	"description": "76mm OQF-17pdr canon.",
+	"health": 1500,
+	"flying": false,
+	"targetAir": false,
+	"hitSize": 100,
+	"speed": 0.03,
+	"range": 75,
+	"mass": 2000,
+	"rotatespeed": 0.01,
+	"baserotatespeed": 0.03,
+	"maxVelocity": 1,
+	"rotateWeapon": false,
+	"weapon":{
+		"name": "120mm",
+		"length": 70,
+		"width": 0,
+		"reload": 400,
+		"ejectEffect": "shellEjectBig",
+		"shootSound": "LILY",
+		"alternate": true,
+		"bullet": {
+			"type": "BasicBulletType",
+			"bulletWidth": 10,
+			"bulletHeight": 50,
+			"keepVelocity": true,
+			"speed": 44,
+			"lifetime": 13,
+			"damage": 100,
+			"splashDamage": 55,
+			"splashDamageRadius": 13,
+			"hitEffect": "explosion",
+			"despawnEffect": "explosion",
+			"frontColor": "fff5ee",
+			"backColor": "fff5ae"
+		},
+		"recoil": 5.0,
+		"shake": 5.0,
+		"roundRobin": true
+	}
+}

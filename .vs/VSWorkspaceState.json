@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\content",
+    "\\content\\mechs",
+    "\\content\\units",
+    "\\content\\zones",
+    "\\maps",
+    "\\sounds",
+    "\\sprites",
+    "\\sprites\\blocks",
+    "\\sprites\\blocks\\units"
+  ],
+  "SelectedNode": "\\content\\blocks\\duo.hjson",
+  "PreviewInSolutionExplorer": false
+}

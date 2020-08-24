@@ -1,0 +1,38 @@
+{
+	"type": "ItemTurret",
+	"name": "Orbital defense system-18cm MAC",
+	"description": "Orbital defense system with 18cm-Magnetic Accelerator Cannon (MAC)",
+	"targetAir": true,
+	"targetGround": true,
+	"health": 2500,
+	"size": 3,
+	"reload": 150,
+	"shots": 1,
+	"range": 400,
+	"recoil": 4,
+	"ammo": {
+		"silicon": {
+			"type": "BasicBulletType",
+			"speed": 40,
+			"damage": 1200,
+			"bulletWidth": 15,
+			"bulletHeight": 40,
+			"frontColor": "00ffff",
+			"backColor": "00ffff",
+			"shootEffect": "shootBigSmoke2",
+			"smokeEffect": "shootSmallSmoke",
+			"ejectEffect": "shellEjectBig",
+			"splashDamage": 400,
+			"splashDamageRadius": 60,
+			"ammoMultiplier": 1
+		}
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 65 }
+	],
+	"category": "turret",
+	"shootShake": 8,
+	"research": "fuse",
+	"shootSound": "120mm",
+	"hitShake": 15
+}

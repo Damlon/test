@@ -1,0 +1,39 @@
+{
+	"name": "K-30 SPAA",
+	"type": "GroundUnit",
+	"description": "Self-propelled anti-aircraft weapon.",
+	"health": 800,
+	"flying": false,
+	"targetAir": true,
+	"speed": 0.06,
+	"engineOffset": 5.5,
+	"mass": 20,
+	"range": 160,
+	"rotatespeed": 0.5,
+	"maxVelocity": 0.9,
+	"weapon":{
+		"reload": 3,
+		"length": 4,
+		"ejectEffect": "shellEjectSmall",
+		"shootSound": "bang",
+		"alternate": true,
+		"bullet": {
+			"type": "BasicBulletType",
+			"bulletWidth": 8,
+			"bulletHeight": 15,
+			"keepVelocity": true,
+			"speed": 20,
+			"lifetime": 13,
+			"damage": 25,
+			"collidesAir": true,
+			"splashDamage": 20,
+			"splashDamageRadius": 13,
+			"hitEffect": "explosion",
+			"despawnEffect": "explosion",
+			"frontColor": "ff0000",
+			"backColor": "e61919"
+		},
+		"shake": 0.3,
+		"recoil": 0.5
+	}
+}

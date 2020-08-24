@@ -1,0 +1,41 @@
+{
+	"name": Younggam tank",
+	"type": "fortress",
+	"description": "Anti-Electric armor vehicle with mini cyclone.",
+	"health": 800,
+	"flying": false,
+	"targetAir": true,
+	"speed": 0.06,
+	"mass": 40,
+	"range": 33,
+	"rotatespeed": 0.2,
+	"mainrotatespeed": 0.2,
+	"maxVelocity": 0.9,
+	"weapon":{
+		"reload": 8,
+		"shots": 1,
+		"width": 0,
+		"inaccuracy": 12,
+		"ejectEffect": "shellEjectSmall",
+		"shootSound": "bang",
+		"alternate": false,
+		"velocityRnd": 0.3,
+		"bullet": {
+			"bulletWidth": 4,
+			"bulletHeight": 10,
+			"keepVelocity": true,
+			"speed": 8,
+			"lifetime": 25,
+			"damage": 20,
+			"collidesAir": true,
+			"splashDamage": 20,
+			"splashDamageRadius": 13,
+			"hitEffect": "explosion",
+			"despawnEffect": "explosion",
+			"frontColor": "ff0000",
+			"backColor": "e61919"
+		},
+		"shake": 0.3,
+		"recoil": 1
+	}
+}

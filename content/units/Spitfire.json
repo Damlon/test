@@ -1,0 +1,32 @@
+{
+	"type": "flyingUnit",
+	"name": "Spitfire",
+	"description": "Space Fighter.",
+	"speed": 0.3,
+	"flying": true,
+	"health": 600,
+	"engineOffset": 0,
+	"range": 200,
+	"mass":5,
+	"weapon": {
+		"name": "20mm",
+		"length": 1.5,
+		"reload": 8,
+		"alternate": true,
+		"bullet": {
+			"bulletWidth": 2,
+			"bulletHeight": 9,
+			"keepVelocity": true,
+			"speed": 20,
+			"lifetime": 30,
+			"damage": 20,
+			"collidesAir": true,
+			"splashDamage": 6,
+			"splashDamageRadius": 13,
+			"hitEffect": "explosion",
+			"despawnEffect": "explosion",
+			"frontColor": "ff0000",
+			"backColor": "e61919"
+		},
+	},
+}

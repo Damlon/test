@@ -1,0 +1,43 @@
+{
+	"name": "T62",
+	"type": "fortress",
+	"description": "Lily.",
+	"health": 1500,
+	"flying": false,
+	"targetAir": false,
+	"hitSize": 100,
+	"speed": 0.03,
+	"range": 75,
+	"mass": 100,
+	"rotatespeed": 0.05,
+	"mainrotatespeed": 0.05,
+	"maxVelocity": 1,
+	"rotateWeapon": false,
+	"weapon":{
+		"name": "120mm",
+		"length": 57,
+		"width": 0,
+		"reload": 130,
+		"ejectEffect": "shellEjectBig",
+		"shootSound": "LILY",
+		"alternate": true,
+		"bullet": {
+			"type": "BasicBulletType",
+			"bulletWidth": 10,
+			"bulletHeight": 50,
+			"keepVelocity": true,
+			"speed": 44,
+			"lifetime": 13,
+			"damage": 600,
+			"splashDamage": 55,
+			"splashDamageRadius": 13,
+			"hitEffect": "explosion",
+			"despawnEffect": "explosion",
+			"frontColor": "fff5ee",
+			"backColor": "fff5ae"
+		},
+		"recoil": 5.0,
+		"shake": 5.0,
+		"roundRobin": true
+	}
+}

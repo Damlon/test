@@ -1,0 +1,6 @@
+name: "NUBMOD"
+displayName: "[orange]NUB[gold] Mod" //what displays in the mod selection menu
+author: "Lily"
+description: "LILY MOD.[]"
+version: "3.1"
+minGameVersion: "103"

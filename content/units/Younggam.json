@@ -1,0 +1,34 @@
+{
+	"type": "revenant",
+	"name": "Younggam",
+	"description": "Younggam cruiser.",
+	"speed": 0.04,
+	"flying": true,
+	"health": 6000,
+	"engineOffset": 10,
+	"range": 80,
+	"mass":30,
+	"weapon": {
+		"name": "Yamatocanon",
+		"length": 16,
+		"width": 0,
+		"reload": 5,
+		"alternate": false,
+		"inaccuracy":10,
+		"bullet": {
+			"bulletWidth": 4,
+			"bulletHeight": 9,
+			"keepVelocity": true,
+			"speed": 10,
+			"lifetime": 30,
+			"damage": 30,
+			"collidesAir": true,
+			"splashDamage": 20,
+			"splashDamageRadius": 15,
+			"hitEffect": "explosion",
+			"despawnEffect": "explosion",
+			"frontColor": "ff0000",
+			"backColor": "e61919"
+		},
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"name": "K-30 SPAA",
+	"type": "fortress",
+	"description": "30mm Self-propelled anti-aircraft weapon.",
+	"health": 800,
+	"flying": false,
+	"targetAir": true,
+	"speed": 0.06,
+	"mass": 20,
+	"range": 24,
+	"rotatespeed": 0.4,
+	"mainrotatespeed": 0.2,
+	"maxVelocity": 0.9,
+	"weapon":{
+		"name": "30mm",
+		"reload": 8,
+		"shots": 2,
+		"inaccuracy": 12,
+		"ejectEffect": "shellEjectSmall",
+		"shootSound": "bang",
+		"alternate": false,
+		"velocityRnd": 0.4,
+		"bullet": {
+			"bulletWidth": 2,
+			"bulletHeight": 9,
+			"keepVelocity": true,
+			"speed": 20,
+			"lifetime": 13,
+			"damage": 20,
+			"collidesAir": true,
+			"splashDamage": 6,
+			"splashDamageRadius": 13,
+			"hitEffect": "explosion",
+			"despawnEffect": "explosion",
+			"frontColor": "ff0000",
+			"backColor": "e61919"
+		},
+		"shake": 0.3,
+		"recoil": 1
+	}
+}

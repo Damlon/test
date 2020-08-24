@@ -1,0 +1,23 @@
+{
+	"type": "unitFactory",
+	"name": "K-30 Factory",
+	"description": "KING K-30 here.",
+	"unitType": "K-30",
+	"produceTime": 500,
+	"size": 3,
+	"consumes": {
+		"power": 1.45,
+		"items": {
+		"items": [
+            {"item": "silicon", "amount": 12.0}
+      ]
+		}
+  },
+	"requirements": [
+		{ "item": "silicon", "amount": 65 },
+		{ "item": "copper", "amount": 95 },
+			],
+	"category": "units",
+	"research": "titan-factory"
+}
+
