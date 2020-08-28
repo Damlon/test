@@ -1,0 +1,22 @@
+{
+	"type": "unitFactory",
+	"name": "BLACKHOLE",
+	"description": "anti electricity.",
+	"unitType": "BlackholeShip",
+	"produceTime": 1,
+	"size": 3,
+	"consumes": {
+		"items": {
+		"items": [
+            {"item": "silicon", "amount": 1.0}
+      ]
+		}
+  },
+	"requirements": [
+		{ "item": "silicon", "amount": 65 },
+		{ "item": "copper", "amount": 95 },
+			],
+	"category": "units",
+	"research": "titan-factory"
+}
+

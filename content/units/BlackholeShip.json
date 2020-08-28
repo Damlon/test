@@ -1,0 +1,34 @@
+{
+	"type": "revenant",
+	"name": "BlackholeShip",
+	"description": "Younggam Ship with Blackhole Engine.",
+	"speed": 0.04,
+	"flying": true,
+	"health": 16000,
+	"engineOffset": 70,
+	"range": 300,
+	"mass":250,
+	"weapon": {
+		"name": "Spear",
+		"length": 80,
+		"width": 0,
+		"reload": 200,
+		"alternate": false,
+		"inaccuracy":0,
+		"bullet": {
+			"bulletWidth": 10,
+			"bulletHeight": 70,
+			"keepVelocity": true,
+			"speed": 40,
+			"lifetime": 30,
+			"damage": 3000,
+			"collidesAir": true,
+			"splashDamage": 2000,
+			"splashDamageRadius": 150,
+			"hitEffect": "explosion",
+			"despawnEffect": "explosion",
+			"frontColor": "ffe900",
+			"backColor": "ffff00"
+		},
+	}
+}
